@@ -3,7 +3,7 @@ pipeline {
           stages{
               stage("SCM"){
                   steps{
-                      git credentialsId: 'github-cred', url: 'https://github.com/demodevops2/devopscls14repo.git'
+                      git credentialsId: 'github-cred', url: 'https://github.com/nagendrababubathini/jenkinspipeline.git'
                   }
               }
               
